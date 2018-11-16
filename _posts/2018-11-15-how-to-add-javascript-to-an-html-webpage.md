@@ -57,3 +57,15 @@ Once that is done we need to go back to our HTML file and update our script tag.
         &lt;script src="example.js"&gt;&lt;/script&gt;
     &lt;/body&gt;
 &lt;/html&gt;</pre>
+As long as everything was entered correctly and the files are in the same folder, opening the HTML file with a web browser should look like:
+
+<img class="alignnone size-full wp-image-159" src="http://matw.me/wp-content/uploads/2018/11/external-1.png" alt="" width="601" height="530" />
+
+You can see both of the console.log statements printed their values into the console. However if the file was in a different location or named incorrectly our browser would try to load the file, but would error instead. This would look like:
+
+<img class="alignnone size-full wp-image-160" src="http://matw.me/wp-content/uploads/2018/11/404external.png" alt="" width="597" height="525" />
+
+And our console.log of course would never show.
+
+OK, so I added a special file to this page and it is logging a question for you in the console. Please take a look and answer the question in the comments.
+... pending....
