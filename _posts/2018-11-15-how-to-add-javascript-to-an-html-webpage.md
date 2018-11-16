@@ -68,4 +68,3 @@ You can see both of the console.log statements printed their values into the con
 And our console.log of course would never show.
 
 OK, so I added a special file to this page and it is logging a question for you in the console. Please take a look and answer the question in the comments.
-... pending....
