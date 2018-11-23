@@ -1,6 +1,6 @@
 ---
 ID: 118
-post_title: Learn Javascript From
+post_title: Learn Javascript From The Basics
 author: Matthew Wilson
 post_excerpt: ""
 layout: page
@@ -17,4 +17,4 @@ I plan to accomplish this by starting at the basics, and add higher level concep
 <h4>Start Here</h4>
 If you are wanting to learn Javascript from scratch, these post should get you off to a good start.
 
-&nbsp;
+[ic_add_posts orderby='date' order='DESC']
