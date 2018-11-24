@@ -8,7 +8,7 @@ permalink: http://matw.me/index.php/home/
 published: true
 post_date: 2018-11-09 20:05:27
 ---
-<h4>Learn Javascript Here</h4>
+<h4>Learn Javascript The Right Way</h4>
 Hi, I'm a full stack web developer who loves Javascript. Welcome to my blog. My goal for Matw.me is to create an easy to read, but informative Javascript reference that covers the "core" and "essential" parts of Javascript.
 
 I plan to accomplish this by starting at the basics, and add higher level concepts only after base knowledge is laid down.
