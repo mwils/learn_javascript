@@ -14,7 +14,6 @@ post_date: 2018-12-01 20:32:01
 <p class="p1"><span class="s1">One of the most useful aspects of JavaScript is its ability to manipulate a website. When a pure HTML website loads, that's it—it's done and it will not change again until the page is reloaded. Adding JavaScript to a page, however, gives us the ability to update a page even after it has been completely loaded. We’re going to be using the Chrome devTool's console for this post, so if you don't know how to open it and use it, please check out the <a href="http://matw.me/index.php/2018/10/25/the-beginning/">console post</a> for more info.</span></p>
 
 <h4>The HTML Document</h4>
-<code></code>
 <p class="p1"><span class="s1">The HTML document is composed of elements that are created using tags. HTML tags have the standard format </span><code>&lt;tagname&gt;Content&lt;/tagname&gt;</code></p>
 <p class="p1"><span class="s1">, and they describe the type of content they contain. For example, to indicate the beginning and end of a paragraph, the content is wrapped using a “p” tag: </span><code></code><code>&lt;p&gt;The paragraph goes here.&lt;/p&gt;</code>. W3 School<a href="https://www.w3schools.com/html/html_elements.asp"> has a great in-depth article here</a> covering HTML tags.</p>
 <p class="p1"><span class="s1">When using JavaScript to manipulate an HTML document, we can use the tags as a road map to navigate and select the document section we want to manipulate.</span></p>
@@ -61,14 +60,12 @@ post_date: 2018-12-01 20:32:01
 Let's take a look at the HTML's hierarchical structure:
 <img class="alignnone size-full wp-image-195" src="http://matw.me/wp-content/uploads/2018/11/Screen-Shot-2018-11-21-at-8.31.38-PM.png" alt="" width="658" height="394" />
 <p class="p1"><span class="s1">In the console, we can view the content of our htmlRoot variable. Enter <code>htmlRoot</code> and you should see:</span></p>
-
 <img class="alignnone size-full wp-image-204" src="http://matw.me/wp-content/uploads/2018/11/Screen-Shot-2018-11-22-at-10.04.55-AM.png" alt="" width="290" height="185" />
 
 In a tree form, this would look like:
 <img class="alignnone size-full wp-image-203" src="http://matw.me/wp-content/uploads/2018/11/dom-tree.png" alt="" width="246" height="205" />
 <p class="p1"><span class="s1">As you can see in the tree above, "html" has two children: "body" and "head." If we want to navigate to the first paragraph, we have to go through the "body" and then the first "div." The first paragraph will then be the second child.</span></p>
 <p class="p1"><span class="s1">Let’s return to navigating to our first paragraph element, and take it one step at a time. Remember the htmlRoot object we created earlier? This is the html element at the top of our tree, so if we enter <code>htmlRoot.children</code>, we should see that htmlRoot has two children: “head” and “body.”</span></p>
-
 <img class="alignnone size-full wp-image-205" src="http://matw.me/wp-content/uploads/2018/11/Screen-Shot-2018-11-22-at-10.07.34-AM.png" alt="" width="264" height="68" />
 <p class="p1"><span class="s1">We already know we want the body, which is the second child. Since our index starts at 0, <code>htmlRoot.children[0]</code> would refer to the head, and <code>htmlRoot.children[1]</code> would refer to the body. Let's save the body as a new variable. We can do that with <code>var body = htmlRoot.children[1]</code>, and pressing enter.</span></p>
 Now let's look at our body variable:
@@ -87,7 +84,6 @@ In the console it would look like:
 <p class="p1"><span class="s1">Let's update the text in our first paragraph to say "Hello World." Even though navigating the DOM and selecting the first paragraph was somewhat complicated, changing the text itself is very easy. The paragraph element, which is of course an object, has a property "innerText." If we type <code>firstParagraph.innerText</code>, we will see the current text of the element returned.</span></p>
 <img class="alignnone size-full wp-image-211" src="http://matw.me/wp-content/uploads/2018/11/Screen-Shot-2018-11-22-at-8.30.22-PM.png" alt="" width="350" height="87" />
 <p class="p1"><span class="s1">We can simply set this innerText to our new value and it will update the page.</span></p>
-
 <code>firstParagraph.innerText = "Hello World"
 </code>
 <p class="p1"><span class="s1">Instantly, our text gets updated to "Hello World".</span></p>
