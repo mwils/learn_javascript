@@ -39,3 +39,5 @@ pTag.append(' :) '); // Add :) to each P tag
 Go ahead and try it, it's pretty funny. To undo it, just reload your page.
 
 Next post will cover using a button to run the above code.
+
+<a href="https://www.theblogstarter.com/html-for-beginners/#ftoc-heading-1">Need to learn more about HTML? Here is a good resource.</a>
