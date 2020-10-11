@@ -9,4 +9,4 @@ published: true
 post_date: 2018-10-27 20:59:07
 ---
 <h3>Codiphany offers one-on-one programming and tutoring with Matthew Wilson</h3>
-<iframe src="https://codiphany.simplybook.me/v2/#book" title="Book Me"></iframe>
+<a src="https://codiphany.simplybook.me/v2/#book">Go here to set up a time</a>
