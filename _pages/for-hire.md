@@ -8,4 +8,4 @@ permalink: http://matw.me/index.php/for-hire/
 published: true
 post_date: 2018-10-27 20:59:07
 ---
-<h3>Not currently available.</h3>
+<h3>Nothing here at the moment. Check back for updates.</h3>
